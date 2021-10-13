@@ -1,0 +1,23 @@
+GET http://127.0.0.1:8080/todos/all HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8080/todos/add HTTP/1.1
+content-type: application/json
+
+###
+PUT http://localhost:8080/todos/update HTTP/1.1
+content-type: application/json
+
+###
+PUT http://localhost:8080/todos/delete HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:8080/todos/complete HTTP/1.1
+content-type: application/json
+
+###
+PUT http://localhost:8080/todos/uncomplete HTTP/1.1
+content-type: application/json

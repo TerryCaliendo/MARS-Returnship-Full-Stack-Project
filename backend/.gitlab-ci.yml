@@ -1,0 +1,9 @@
+build-job:
+  image: node:8
+  stage: build
+  only:
+    - develop
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+    - npm --version
+    - scp server.express.js remote_username@10.10.0.2:/remote/directory

@@ -1,0 +1,29 @@
+{
+  "name": "c4-team-node-practice",
+  "version": "1.0.0",
+  "description": "Node Practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/TerryCaliendo/c4-team-node-practice.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/TerryCaliendo/c4-team-node-practice/issues"
+  },
+  "homepage": "https://gitlab.com/TerryCaliendo/c4-team-node-practice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {}
+}
